@@ -1,17 +1,13 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <Hello></Hello>
+    <!-- <img src="./assets/logo.png"> -->
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import Hello from './components/Hello.vue'
 export default {
-  name: 'app',
-  components: {
-    Hello
-  }
+  name: 'app'
 }
 </script>
 
