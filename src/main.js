@@ -6,11 +6,13 @@ import VueRouter from 'vue-router';
 import goods from 'components/goods/goods.vue';
 import ratings from 'components/ratings/ratings.vue';
 import seller from 'components/seller/seller.vue';
+import VueResource from 'vue-resource';
 
 import 'common/scss/index.css';
 
 Vue.config.productionTip = false;
 Vue.use(VueRouter);
+Vue.use(VueResource);
 
 const routes = [
   {path: '/', redirect: '/goods'},    // 默认到goods
@@ -30,3 +32,4 @@ new Vue({
   router,
   render: h => h(App)
 });
+
