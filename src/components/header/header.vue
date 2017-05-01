@@ -170,8 +170,7 @@
             height: 12px;
             margin-right: 4px;
             background-size: 12px 12px;
-
-
+            
             &.decrease{
               @include bg-image('decrease_1');
              };
@@ -279,7 +278,7 @@
     overflow: auto;
     opacity: 1;
     background: rgba(7,17,27,0.8);
-    backdrop-filter: blur(10px);
+    // backdrop-filter: blur(10px);
 
     &.fade-enter-active,&.fade-leave-active{
     transition: all 0.5s;
